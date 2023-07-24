@@ -18,9 +18,8 @@ const QuoteBox = (props)=>{
     }
 
     useEffect(()=>{
-        const { updateColorProp } = props;
-        updateColorProp(colors[Math.floor(Math.random() * colors.length)]);
-    },[]);
+        props.updateColorProp(colors[Math.floor(Math.random() * colors.length)]);
+    },[props]);
    
 
     const[isHover, setIsHover] = useState(false)
