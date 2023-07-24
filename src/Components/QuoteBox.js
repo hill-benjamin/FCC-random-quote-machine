@@ -18,7 +18,8 @@ const QuoteBox = (props)=>{
     }
 
     useEffect(()=>{
-        props.updateColorProp(colors[Math.floor(Math.random() * colors.length)])
+        const { updateColorProp } = props;
+        updateColorProp(colors[Math.floor(Math.random() * colors.length)]);
     },[]);
    
 
