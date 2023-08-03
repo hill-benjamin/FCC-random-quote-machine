@@ -33,6 +33,9 @@ const QuoteBox = (props)=>{
         transition: 'all .5s',
     }
 
+    let href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote) + "&hashtags="
+    console.log(href)
+
     return(
     <blockquote id="quote-box">    
         <p id='text' className={`text-box ${isVisible ? '' : 'hidden'}`} style={{color:props.colorProp}}><i className="fa-solid fa-quote-left"></i> {quote}</p>
@@ -43,7 +46,7 @@ const QuoteBox = (props)=>{
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 id='tweet-quote' 
-                href='twitter.com/intent/tweet'
+                href={href} 
                 target='_blank'><i className='fa-brands fa-twitter'></i>
             </a>
             <button id='new-quote' onClick={handlerClick} style={{backgroundColor:props.colorProp}}>New quote</button>
