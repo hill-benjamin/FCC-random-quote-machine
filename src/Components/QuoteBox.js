@@ -42,12 +42,14 @@ const QuoteBox = (props)=>{
         <cite id='author' className={`text-box ${isVisible ? '' : 'hidden'}`} style={{color:props.colorProp}}>{author}</cite>
         <div className='btn-container'>
             <a 
-                style={tweetStyle}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                id='tweet-quote' 
-                href={href} 
-                target='_blank'><i className='fa-brands fa-twitter'></i>
+              style={tweetStyle}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+              id='tweet-quote' 
+              href={href} 
+              target='_blank'
+              rel="noreferrer">
+                <i className='fa-brands fa-twitter'></i>
             </a>
             <button id='new-quote' onClick={handlerClick} style={{backgroundColor:props.colorProp}}>New quote</button>
         </div>
