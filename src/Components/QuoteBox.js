@@ -34,7 +34,6 @@ const QuoteBox = (props)=>{
     }
 
     let href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote) + "&hashtags="
-    console.log(href)
 
     return(
     <blockquote id="quote-box">    
