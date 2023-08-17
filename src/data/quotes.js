@@ -1,6 +1,6 @@
 const quotes = [
     {
-        quote:"We are more often frightened than hurt; and we suffer more in imagination than in reality.",
+        quote:"We are more often frightened than hurt, and we suffer more in imagination than in reality.",
         author:'- Seneca'
     },
     {
@@ -41,11 +41,31 @@ const quotes = [
     },
     {
         quote:"Man conquers the world, by conquering himself.",
-        author:"Zeno Of Citium"
+        author:"- Zeno Of Citium"
     },
     {
         quote:"Climb mountains not so the world can see you, but so you can see the world.",
-        author:"David McCullough Jr."
+        author:"- David McCullough Jr."
+    },
+    {
+        quote:"Worrying Is Like Paying a Debt You Don't Owe.",
+        author:"- Mark Twain"
+    },
+    {
+        quote:"No amount of anxiety makes any difference to anything that's going to happen",
+        author:"- Alan Watts"
+    },
+    {
+        quote:"No man is free who cannot control himself.",
+        author:"- Pythagoras"
+    },
+    {
+        quote:"Truth is not what you want it to be, it is what it is. And you must bend to its power or live a lie.",
+        author:"- Miyamoto Musashi"
+    },
+    {
+        quote:"It may seem difficult at first, but all things are difficult at first.",
+        author:"- Miyamoto Musashi"
     }
 ]
 
